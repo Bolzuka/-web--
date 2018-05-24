@@ -1,0 +1,6 @@
+POST /api/req/%D0%9C%D0%B0%D1%80%D0%B8%D1%8F/%D0%A8%D0%B8%D0%B1%D0%B0%D0%B5%D0%B2%D0%B0/ HTTP/1.1
+Host:kodaktor.ru
+Content-Type:application/x-www-form-urlencoded
+Content-Length:65
+
+name=%D0%9C%D0%B0%D1%80%D0%B8%D1%8Ffamilyname=%D0%A8%D0%B8%D0%B1%D0%B0%D0%B5%D0%B2%D0%B0
