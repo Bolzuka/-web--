@@ -1,0 +1,42 @@
+
+cd Desktop
+mkdir 1303
+cd 1303
+npm init -y
+npm i -D nodemon
+npm i moment
+
+Поменять в packege.json или добавить  "start": "nodemon" в   "scripts"
+
+Создаем файл index.js и туда все это:
+
+const http = require('http');
+const moment = require('moment);
+http.createServer((req, res)=>{
+  res.end(moment().format('DD.MM.YYYY HH:mm:ss'));
+}).listen(4321);
+
+затем в консоли node index.js и Enter
+Получаем фото 1
+
+Теперь меняем index.js - туда все это:
+
+const http = require('http');
+const moment = require('moment');
+
+http.createServer((req, res)=>{
+  res.setHeader('Content-Type', 'application/json; charset=utf-8');    
+  res.end(JSON.stringify({ date:moment().format('DD.MM.YYYY HH:mm:ss')}));
+}).listen(4321);
+
+Теперь снова меняем index.js - туда все это:
+
+const http = require('http');
+const moment = require('moment');
+
+const server = http.createServer();
+server.listen(4321);
+server.on('request', (req, res)=> {
+  res.setHeader('Content-Type', 'application/json; charset=utf-8');    
+  res.end(JSON.stringify({ date:moment().format('DD.MM.YYYY HH:mm:ss')}));
+});
