@@ -1,0 +1,3 @@
+curl  -s -H 'Content-Type: application/json' 'http://kodaktor.ru:2222/todo' -d '{"title":"Shibaeva Mary", "time":"24/05/2018 12:26"}'
+
+посылка запроса - пост
