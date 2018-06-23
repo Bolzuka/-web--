@@ -1,0 +1,38 @@
+<style>
+  .btn {
+    margin: 20px;
+    width: 550px;
+    font-size: 25px;
+    
+  }
+</style>
+<button class="btn btn-success" id ="first">Сумма</button>
+<button class="btn btn-warning" id ="second">Автор</button>  
+<script>{
+       (b => {
+               // const URL = 'https://kodaktor.ru/j/users';
+               const URL = 'https://appmiddle.herokuapp.com/add/50/50';
+               b.style.zoom = '200%';
+               b.addEventListener(
+                 'click',
+                  async ({ target: t}) => { 
+                    const result = await fetch(URL).then(x => x.text());
+                    t.innerHTML = result; // 
+                  }
+               );
+       })(document.querySelector('#first'));
+  
+  
+  (b => {
+  
+               const URL = 'https://appmiddle.herokuapp.com/author';
+               b.style.zoom = '200%';
+               b.addEventListener(
+                 'click',
+                  async ({ target: t}) => { 
+                    const result = await fetch(URL).then(x => x.text());
+                    t.innerHTML = result; // 
+                  }
+               );
+       })(document.querySelector('#second'));
+}</script>
