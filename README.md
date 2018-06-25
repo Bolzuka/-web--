@@ -21,4 +21,4 @@
 *node_modules - не забудьте установить связи:), а .babelrc, .eslintrc и .gitignore - можете найти в корне
 
 
-![Сертификат](https://github.com/Bolzuka/-web-Goss2018/blob/master/Сертификат.pdf)
+![Сертификат](https://github.com/Bolzuka/-web-Goss2018/blob/master/Сертификат 1.png)
