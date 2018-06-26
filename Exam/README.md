@@ -8,7 +8,7 @@
   * ### [Лабораторная работа от 17.04.2018](https://github.com/Bolzuka/-web-Goss2018/tree/master/PC/17.04.2018)
   * ### [Лабораторная работа от 08.05.2018](https://github.com/Bolzuka/-web-Goss2018/tree/master/PC/08.05.2018)
 
-* ## [(в) Выполнение борда проекта - https://kodaktor.ru/bind02032018 ](https://kodaktor.ru/bind02032018_604ee)
+* ## [(в) Выполнение борда проекта - https://kodaktor.ru/bind02032018 ](https://kodaktor.ru/bind02032018_3c529)
 * ## (г) Выполнение требования z7a - старалась везде выполнить, но возможно где-то и пропустила
 
 
